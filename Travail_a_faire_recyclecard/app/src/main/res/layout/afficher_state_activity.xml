@@ -1,9 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+   <!-- <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#D12626"
+        app:srcCompat="@android:drawable/ic_menu_delete"
+        android:layout_gravity="center"
+        />-->
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="delete"
+        android:textColor="@color/white"
+        android:background="#D12626"
+        ></Button>
 
 
     <androidx.cardview.widget.CardView
@@ -25,4 +43,15 @@
             android:layout_marginTop="40dp"
             />
     </androidx.cardview.widget.CardView>
+
+
+    <!-- <com.google.android.material.floatingactionbutton.FloatingActionButton
+         android:id="@+id/floatingActionButton"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:background="#D12626"
+         android:clickable="true"
+         android:src="@android:drawable/ic_menu_delete" />-->
+
 </LinearLayout>
